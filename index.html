@@ -78,7 +78,7 @@
         </div>
         
         <div class="post-content">
-            搭建自己的博客完善自己的知识体系
+            为了搭建自己的博客完善自己的知识体系
 windows本地搭建 1、下载hugo 直接访问官网：https://gohugo.io/
 本来打算在ubuntu的虚拟机搭的，但是直接下载的版本有点低，和后面的主题有点不兼容，可能我用的是阿里云的apt-get源
 所以直接下载windows的0.61版本
@@ -87,25 +87,11 @@ windows本地搭建 1、下载hugo 直接访问官网：https://gohugo.io/
 hugo new site blog  4、下载主题 因为现在还是一个空的站点，没有index.html，即使现在起也是一个空的 使用的一个简单主题maupassant
 cd themes git clone https://github.com/flysnow-org/maupassant-hugo.git maupassant  修改config.toml
 languageCode = &quot;zh-cn&quot; title = &quot;Crazy lion's blog&quot; theme = &quot;maupassant&quot;  5、创建一个blog 这个主题有一个规定文档要放在post目录下
-hugo new post/my-first-post.md  6、启动服务 hugo server -D  打开浏览器查看http://localhost:1313/……
+hugo new post/my-first-post.md  6、启动服务 hugo server -D  打开浏览器查看http://localhost:1313/
+github page搭建 7、编译hugo项目 hugo -D  和6的参数是一样的，之前没有-D，放上去没有内容
+会生产一个public的文件夹……
         </div>
         <p class="readmore"><a href="https://Crazlion.github.io/post/blog_build/">阅读全文</a></p>
-    </article>
-    
-    <article class="post">
-        <header>
-            <h1 class="post-title">
-                <a href="https://Crazlion.github.io/post/test/" title="test">test</a>
-            </h1>
-        </header>
-        <date class="post-meta meta-date">
-            2020年4月22日
-        </date>
-        
-        <div class="post-content">
-            搭建自己的博客完善自己的知识体系……
-        </div>
-        <p class="readmore"><a href="https://Crazlion.github.io/post/test/">阅读全文</a></p>
     </article>
     
     
@@ -134,10 +120,6 @@ hugo new post/my-first-post.md  6、启动服务 hugo server -D  打开浏览器
     
     <li>
         <a href="https://Crazlion.github.io/post/blog_build/" title="hugo &#43; github page 搭建自己的博客">hugo &#43; github page 搭建自己的博客</a>
-    </li>
-    
-    <li>
-        <a href="https://Crazlion.github.io/post/test/" title="test">test</a>
     </li>
     
 </ul>

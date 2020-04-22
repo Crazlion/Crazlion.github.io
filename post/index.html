@@ -6,21 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Tags | Crazy lion&#39;s blog</title>
-    <meta property="og:title" content="Tags - Crazy lion&#39;s blog">
+    <title>Posts | Crazy lion&#39;s blog</title>
+    <meta property="og:title" content="Posts - Crazy lion&#39;s blog">
     <meta property="og:type" content="article">
         
         
     <meta name="Keywords" content="">
-    <meta name="description" content="Tags">
+    <meta name="description" content="Posts">
         
     <meta name="author" content="Crazy lion">
-    <meta property="og:url" content="https://Crazlion.github.io/tags/">
+    <meta property="og:url" content="https://Crazlion.github.io/post/">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href='/css/normalize.css'>
     <link rel="stylesheet" href='/css/style.css'>
-    <link rel="alternate" type="application/rss+xml+xml" href="https://Crazlion.github.io/tags/index.xml" title="Crazy lion's blog" />
+    <link rel="alternate" type="application/rss+xml+xml" href="https://Crazlion.github.io/post/index.xml" title="Crazy lion's blog" />
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     
@@ -45,7 +45,7 @@
             </div>
             <div>
                 <nav id="nav-menu" class="clearfix">
-                    <a class="" href="https://Crazlion.github.io">首页</a>
+                    <a class="current" href="https://Crazlion.github.io">首页</a>
                     
                 </nav>
             </div>
@@ -59,13 +59,65 @@
 
                 <div class="col-8" id="main">
                     
-<header>
+<div class="res-cons">
     
-        <h1>共有0个标签</h1>
     
-</header>
-<div class="post-archive">
+    <article class="post">
+        <header>
+            <h1 class="post-title">
+                <a href="https://Crazlion.github.io/post/blog_build/" title="hugo &#43; github page 搭建自己的博客">hugo &#43; github page 搭建自己的博客</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            2020年4月22日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='https://Crazlion.github.io/categories/hugo'>hugo</a></span>
+            
+        </div>
+        
+        <div class="post-content">
+            搭建自己的博客完善自己的知识体系
+windows本地搭建 1、下载hugo 直接访问官网：https://gohugo.io/
+本来打算在ubuntu的虚拟机搭的，但是直接下载的版本有点低，和后面的主题有点不兼容，可能我用的是阿里云的apt-get源
+所以直接下载windows的0.61版本
+把hugo.exe拷贝到一个PATH目录下，感觉这样省事，之前设置过
+2、验证安装 hugo version Hugo Static Site Generator v0.57.2-A849CB2D windows/amd64 BuildDate: 2019-08-17T17:54:13Z  3、创建站点 找一个目录，打开命令行
+hugo new site blog  4、下载主题 因为现在还是一个空的站点，没有index.html，即使现在起也是一个空的 使用的一个简单主题maupassant
+cd themes git clone https://github.com/flysnow-org/maupassant-hugo.git maupassant  修改config.toml
+languageCode = &quot;zh-cn&quot; title = &quot;Crazy lion's blog&quot; theme = &quot;maupassant&quot;  5、创建一个blog 这个主题有一个规定文档要放在post目录下
+hugo new post/my-first-post.md  6、启动服务 hugo server -D  打开浏览器查看http://localhost:1313/……
+        </div>
+        <p class="readmore"><a href="https://Crazlion.github.io/post/blog_build/">阅读全文</a></p>
+    </article>
     
+    
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
+                <a href="https://Crazlion.github.io/post/test/" title="test">test</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            2020年4月22日
+        </date>
+        
+        <div class="post-content">
+            搭建自己的博客完善自己的知识体系……
+        </div>
+        <p class="readmore"><a href="https://Crazlion.github.io/post/test/">阅读全文</a></p>
+    </article>
+    
+    
+    
+
+
+
+
 
 </div>
 

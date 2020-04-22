@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Crazy lion&#39;s blog</title>
-    <link>https://Crazlion.github.io/</link>
-    <description>Recent content on Crazy lion&#39;s blog</description>
+    <title>hugo on Crazy lion&#39;s blog</title>
+    <link>https://Crazlion.github.io/categories/hugo/</link>
+    <description>Recent content in hugo on Crazy lion&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 22 Apr 2020 17:43:24 +0800</lastBuildDate>
     
-	<atom:link href="https://Crazlion.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://Crazlion.github.io/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -27,15 +27,6 @@ hugo new site blog  4、下载主题 因为现在还是一个空的站点，没�
 cd themes git clone https://github.com/flysnow-org/maupassant-hugo.git maupassant  修改config.toml
 languageCode = &amp;quot;zh-cn&amp;quot; title = &amp;quot;Crazy lion&#39;s blog&amp;quot; theme = &amp;quot;maupassant&amp;quot;  5、创建一个blog 这个主题有一个规定文档要放在post目录下
 hugo new post/my-first-post.md  6、启动服务 hugo server -D  打开浏览器查看http://localhost:1313/</description>
-    </item>
-    
-    <item>
-      <title>test</title>
-      <link>https://Crazlion.github.io/post/test/</link>
-      <pubDate>Wed, 22 Apr 2020 17:01:53 +0800</pubDate>
-      
-      <guid>https://Crazlion.github.io/post/test/</guid>
-      <description>搭建自己的博客完善自己的知识体系</description>
     </item>
     
   </channel>

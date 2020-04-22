@@ -1,7 +1,0 @@
-baseURL = "http://Crazylionblog.github.io"
-languageCode = "zh-cn"
-title = "Crazy lion's blog"
-theme = "maupassant"
-
-[author]
-  name = "Crazy lion"

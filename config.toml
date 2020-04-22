@@ -1,0 +1,4 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "en-us"
+title = "Crazy lion's blog"
+theme = "casper"

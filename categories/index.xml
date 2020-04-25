@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Crazy lion&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 22 Apr 2020 17:43:24 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 25 Apr 2020 11:10:45 +0800</lastBuildDate>
     
 	<atom:link href="https://Crazlion.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>vscode</title>
+      <link>https://Crazlion.github.io/categories/vscode/</link>
+      <pubDate>Sat, 25 Apr 2020 11:10:45 +0800</pubDate>
+      
+      <guid>https://Crazlion.github.io/categories/vscode/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>hugo</title>

@@ -6,21 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Posts | Crazy lion&#39;s blog</title>
-    <meta property="og:title" content="Posts - Crazy lion&#39;s blog">
+    <title>vscode | Crazy lion&#39;s blog</title>
+    <meta property="og:title" content="vscode - Crazy lion&#39;s blog">
     <meta property="og:type" content="article">
         
         
     <meta name="Keywords" content="">
-    <meta name="description" content="Posts">
+    <meta name="description" content="vscode">
         
     <meta name="author" content="Crazy lion">
-    <meta property="og:url" content="https://Crazlion.github.io/post/">
+    <meta property="og:url" content="https://Crazlion.github.io/categories/vscode/">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href='/css/normalize.css'>
     <link rel="stylesheet" href='/css/style.css'>
-    <link rel="alternate" type="application/rss+xml+xml" href="https://Crazlion.github.io/post/index.xml" title="Crazy lion's blog" />
+    <link rel="alternate" type="application/rss+xml+xml" href="https://Crazlion.github.io/categories/vscode/index.xml" title="Crazy lion's blog" />
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     
@@ -45,7 +45,7 @@
             </div>
             <div>
                 <nav id="nav-menu" class="clearfix">
-                    <a class="current" href="https://Crazlion.github.io">首页</a>
+                    <a class="" href="https://Crazlion.github.io">首页</a>
                     
                 </nav>
             </div>
@@ -61,21 +61,28 @@
                     
 <div class="res-cons">
     
+    <h3 class="archive-title">
+        分类
+        <span class="keyword">vscode</span>
+        中的文章
+    </h3>
+    
+
     
     <article class="post">
         <header>
             <h1 class="post-title">
-                <a href="https://Crazlion.github.io/post/vscode_goconfig/" title="使用Vscode 搭建 go语言环境">使用Vscode 搭建 go语言环境</a>
+                <a href="https://Crazlion.github.io/post/vscode_goconfig/">使用Vscode 搭建 go语言环境</a>
             </h1>
         </header>
         <date class="post-meta meta-date">
             2020年4月25日
         </date>
         
-        <div class="post-meta">
-            <span>|</span>
+        <div class="post-meta meta-category">
+            |
             
-            <span class="meta-category"><a href='https://Crazlion.github.io/categories/vscode'>vscode</a></span>
+            <a href='https://Crazlion.github.io/categories/vscode'>vscode</a>
             
         </div>
         
@@ -89,47 +96,11 @@ goland总是需要验证，激活经常过期，每次找激活码需要花费�
 vscode安装插件 go get被墙问题 使用代理 https://goproxy.io/
 # 我只运行了前两行 go env -w GO111MODULE=on go env -w GOPROXY=&quot;https://goproxy.io,direct&quot; # Set environment variable allow bypassing the proxy for selected modules (optional) go env -w GOPRIVATE=&quot;*.corp.example.com&quot;  ps: 安装完以后一定要关闭,不然无法启动debug，会提示go module错误
 go env GO111MODULE=off  ……
+            <p class="readmore"><a href="https://Crazlion.github.io/post/vscode_goconfig/">阅读全文</a></p>
         </div>
-        <p class="readmore"><a href="https://Crazlion.github.io/post/vscode_goconfig/">阅读全文</a></p>
     </article>
     
-    
-    
-    <article class="post">
-        <header>
-            <h1 class="post-title">
-                <a href="https://Crazlion.github.io/post/blog_build/" title="hugo &#43; github page 搭建自己的博客">hugo &#43; github page 搭建自己的博客</a>
-            </h1>
-        </header>
-        <date class="post-meta meta-date">
-            2020年4月22日
-        </date>
-        
-        <div class="post-meta">
-            <span>|</span>
-            
-            <span class="meta-category"><a href='https://Crazlion.github.io/categories/hugo'>hugo</a></span>
-            
-        </div>
-        
-        <div class="post-content">
-            为了搭建自己的博客完善自己的知识体系
-windows本地搭建 1、下载hugo 直接访问官网：https://gohugo.io/
-本来打算在ubuntu的虚拟机搭的，但是直接下载的版本有点低，和后面的主题有点不兼容，可能我用的是阿里云的apt-get源
-所以直接下载windows的0.61版本
-把hugo.exe拷贝到一个PATH目录下，感觉这样省事，之前设置过
-2、验证安装 hugo version Hugo Static Site Generator v0.57.2-A849CB2D windows/amd64 BuildDate: 2019-08-17T17:54:13Z  3、创建站点 找一个目录，打开命令行
-hugo new site blog  4、下载主题 因为现在还是一个空的站点，没有index.html，即使现在起也是一个空的 使用的一个简单主题maupassant
-cd themes git clone https://github.com/flysnow-org/maupassant-hugo.git maupassant  修改config.toml
-languageCode = &quot;zh-cn&quot; title = &quot;Crazy lion's blog&quot; theme = &quot;maupassant&quot;  5、创建一个blog 这个主题有一个规定文档要放在post目录下
-hugo new post/my-first-post.md  6、启动服务 hugo server -D  打开浏览器查看http://localhost:1313/
-github page搭建 7、编译hugo项目 hugo -D  和6的参数是一样的，之前没有-D，放上去没有内容
-会生产一个public的文件夹……
-        </div>
-        <p class="readmore"><a href="https://Crazlion.github.io/post/blog_build/">阅读全文</a></p>
-    </article>
-    
-    
+
     
 
 

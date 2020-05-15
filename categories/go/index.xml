@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Crazy lion&#39;s blog</title>
-    <link>https://Crazlion.github.io/</link>
-    <description>Recent content on Crazy lion&#39;s blog</description>
+    <title>go on Crazy lion&#39;s blog</title>
+    <link>https://Crazlion.github.io/categories/go/</link>
+    <description>Recent content in go on Crazy lion&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 13 May 2020 12:00:27 +0800</lastBuildDate>
     
-	<atom:link href="https://Crazlion.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://Crazlion.github.io/categories/go/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -48,43 +48,6 @@ go的线程 操作系统会在物理处理器上调度线程来运行，而Go语
       <guid>https://Crazlion.github.io/post/go_reflection/</guid>
       <description>最近在学习go的反射，做一下笔记
 基本概念 func reflectionDemo(a interface{}) { // 获取类型 t0 := reflect.TypeOf(a) fmt.Printf(&amp;quot;type of a is:%v\n&amp;quot;, t0) // 获取值 v := reflect.ValueOf(a) // 通过值获取类型 t1 := v.Type() fmt.Printf(&amp;quot;type of a is:%v\n&amp;quot;, t1) // 通过类型获得分类 kind := t1.Kind() // 通过分类来判断是什么类型的 switch kind { // 结构体 case reflect.Struct: for i := 0; i &amp;lt; v.NumField(); i++ { field := v.Field(i) //打印字段的名称、类型以及值 fmt.Printf(&amp;quot;name:%s type:%v value:%v\n&amp;quot;, t1.Field(i).Name, field.Type().Kind(), field.Interface()) } // int类型 case reflect.Int: fmt.</description>
-    </item>
-    
-    <item>
-      <title>使用Vscode 搭建 go语言环境</title>
-      <link>https://Crazlion.github.io/post/vscode_goconfig/</link>
-      <pubDate>Sat, 25 Apr 2020 11:10:45 +0800</pubDate>
-      
-      <guid>https://Crazlion.github.io/post/vscode_goconfig/</guid>
-      <description> 使用Vscode 搭建 go语言环境 去字节应该是要使用go语言开发
-goland总是需要验证，激活经常过期，每次找激活码需要花费很久时间 所以改用vscode开发
-步骤 初始步骤 简单的就不过多记录：
-* 安装go环境（环境变量、GOROOT、GOPATH）
-* 安装vscode
-* 打开vscode插件搜索 go 安装
-vscode安装插件 go get被墙问题 使用代理 https://goproxy.io/
-# 我只运行了前两行 go env -w GO111MODULE=on go env -w GOPROXY=&amp;quot;https://goproxy.io,direct&amp;quot; # Set environment variable allow bypassing the proxy for selected modules (optional) go env -w GOPRIVATE=&amp;quot;*.corp.example.com&amp;quot;  ps: 安装完以后一定要关闭,不然无法启动debug，会提示go module错误
-go env GO111MODULE=off  </description>
-    </item>
-    
-    <item>
-      <title>hugo &#43; github page 搭建自己的博客</title>
-      <link>https://Crazlion.github.io/post/blog_build/</link>
-      <pubDate>Wed, 22 Apr 2020 17:43:24 +0800</pubDate>
-      
-      <guid>https://Crazlion.github.io/post/blog_build/</guid>
-      <description>为了搭建自己的博客完善自己的知识体系
-windows本地搭建 1、下载hugo 直接访问官网：https://gohugo.io/
-本来打算在ubuntu的虚拟机搭的，但是直接下载的版本有点低，和后面的主题有点不兼容，可能我用的是阿里云的apt-get源
-所以直接下载windows的0.61版本
-把hugo.exe拷贝到一个PATH目录下，感觉这样省事，之前设置过
-2、验证安装 hugo version Hugo Static Site Generator v0.57.2-A849CB2D windows/amd64 BuildDate: 2019-08-17T17:54:13Z  3、创建站点 找一个目录，打开命令行
-hugo new site blog  4、下载主题 因为现在还是一个空的站点，没有index.html，即使现在起也是一个空的 使用的一个简单主题maupassant
-cd themes git clone https://github.com/flysnow-org/maupassant-hugo.git maupassant  修改config.toml
-languageCode = &amp;quot;zh-cn&amp;quot; title = &amp;quot;Crazy lion&#39;s blog&amp;quot; theme = &amp;quot;maupassant&amp;quot;  5、创建一个blog 这个主题有一个规定文档要放在post目录下
-hugo new post/my-first-post.md  6、启动服务 hugo server -D  打开浏览器查看http://localhost:1313/
-github page搭建 7、编译hugo项目 hugo -D  和6的参数是一样的，之前没有-D，放上去没有内容
-会生产一个public的文件夹</description>
     </item>
     
   </channel>
